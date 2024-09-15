@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(100, 100, 100);
+}
+
+.container{
+    background-color: rgb(47, 47, 47);
+    border-radius: 10px;
+    padding: 15px;
+    width: 255px;
+    position: fixed;
+    top: 70px;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+h1{
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    width: 265px;
+    color: rgb(215, 176, 135);
+    font-size: 190%;
+    white-space: nowrap;
+    background-color: rgb(47, 47, 47);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#display{
+    border: solid black;
+    height: 80px;
+    width: 248px;
+    border-radius: 10px;
+    background-color: rgb(177, 177, 177);
+    font-size: xx-large;
+}
+
+.buttons{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: solid black;
+    font-size: x-large;
+    background-color: rgb(255, 147, 47);
+    font-weight: bold
+}
+
+.buttons:hover{
+    background-color: rgb(255, 173, 97);
+    cursor: pointer;
+    
+}
+
+.buttons:active{
+    background-color: rgb(255, 197, 142);
+
+}
+
+#_backspace{
+    width: 125px;
+}
+
+#_0{
+    width: 125px;
+}
