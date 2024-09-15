@@ -63,3 +63,63 @@ h1{
 #_0{
     width: 125px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for tablets */
+        max-width: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    h1 {
+        font-size: 150%; /* Reduce font size */
+        width: 100%;
+        max-width: 220px;
+        left: 0;
+    }
+
+    #display {
+        height: 70px;
+        font-size: large;
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .buttons {
+        height: 50px;
+        width: 50px;
+        font-size: large;
+    }
+
+    #_backspace, #_0 {
+        width: 48%; /* Make buttons responsive */
+    }
+}
+
+/* Media Queries for Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .container {
+        width: 100%; /* Full width for mobile */
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 130%; /* Further reduce font size */
+    }
+
+    #display {
+        height: 60px;
+        font-size: medium;
+    }
+
+    .buttons {
+        height: 40px;
+        width: 40px;
+        font-size: medium;
+    }
+
+    #_backspace, #_0 {
+        width: 48%;
+    }
+}
